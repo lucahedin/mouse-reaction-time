@@ -21,10 +21,6 @@ body {
     text-align: center;
 }
 
-button {
-    cursor: pointer;
-}
-
 .click-test {
     background-color: aqua;
 }
