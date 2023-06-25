@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapper .column {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.click-test {
+    background-color: aqua;
+}
+
+.arduino-test {
+    background-color: blueviolet;
+}
+
+.arduino-trigger-bot-test {
+    background-color: crimson;
+}
